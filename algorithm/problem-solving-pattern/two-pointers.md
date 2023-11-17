@@ -28,12 +28,12 @@ Given a sorted array of integers and a target sum, find a pair of elements in th
 
 ### Algorithm using Two Pointers:
 
-1. Initialize two pointers, **left** at the beginning of the array and **right** at the end.
-2. While **left** is less than **right**, do the following:
-    - Calculate the sum of elements at positions **left** and **right**.
+1. Initialize two pointers, ```left``` at the beginning of the array and ```right``` at the end.
+2. While **left** is less than ```right```, do the following:
+    - Calculate the sum of elements at positions ```left``` and ```right```.
     - If the sum equals the target, you've found the pair.
-    - If the sum is less than the target, move the **left** pointer to the **right**.
-    - If the sum is greater than the target, move the **right** pointer to the **left**.
+    - If the sum is less than the target, move the ```left``` pointer to the ```right```.
+    - If the sum is greater than the target, move the ```right``` pointer to the ```left```.
 3. Repeat until the pointers meet or the pair is found.
 
 ### Example Code:
