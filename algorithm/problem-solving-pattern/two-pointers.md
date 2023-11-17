@@ -19,7 +19,9 @@ Example scenarios where the Two Pointers pattern is commonly applied include fin
 Using the Two Pointers pattern can lead to more efficient solutions compared to brute force approaches in certain cases, as it takes advantage of the inherent structure or properties of the data.
 
 ## Problems
-[Two Sum](https://leetcode.com/problems/two-sum/), [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/), [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
+- [Two Sum](https://leetcode.com/problems/two-sum/)
+- [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+- [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 
 
 ## Problem Statement 
