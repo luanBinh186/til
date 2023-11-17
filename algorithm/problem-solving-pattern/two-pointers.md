@@ -19,7 +19,7 @@ Example scenarios where the Two Pointers pattern is commonly applied include fin
 Using the Two Pointers pattern can lead to more efficient solutions compared to brute force approaches in certain cases, as it takes advantage of the inherent structure or properties of the data.
 
 ## Problems
-‘Pair with Target Sum’, ‘Remove Duplicates’, ‘Squaring a Sorted Array’...
+[Two Sum](https://leetcode.com/problems/two-sum/), [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/), [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 
 
 ## Problem Statement 
@@ -37,7 +37,7 @@ Given a sorted array of integers and a target sum, find a pair of elements in th
 3. Repeat until the pointers meet or the pair is found.
 
 ### Example Code:
-```
+```python
 def two_sum_sorted_array(nums, target):
     left, right = 0, len(nums) - 1
 
