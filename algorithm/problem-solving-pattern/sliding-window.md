@@ -52,6 +52,8 @@ You are visiting a farm that has a single row of fruit trees arranged from left 
 - The window expands to the right (r increases) and contracts to meet the constraint (l increases) when there are more than two types of fruits in the window.
 - By keeping track of the fruit frequencies using the cnt counter and updating the window accordingly, the code efficiently finds the maximum number of fruits that can be picked.
 
+### Example Code:
+
 ```python
 def totalFruit(self, fruits: List[int]) -> int:
     k = 0
